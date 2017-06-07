@@ -30,6 +30,7 @@ public class ContactsActivity extends AppCompatActivity {
     protected void sendEmail(){
 
         String[] TO = {"caiofelipe502@gmail.com"};
+        TextView mensagem = (TextView) findViewById(R.id.mensagem);
         TextView email = (TextView) findViewById(R.id.email);
         TextView celular = (TextView) findViewById(R.id.celular);
         TextView nome = (TextView) findViewById(R.id.nome);
@@ -40,14 +41,14 @@ public class ContactsActivity extends AppCompatActivity {
         emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Contato");
         emailIntent.putExtra(Intent.EXTRA_TEXT, "Email de " + nome.getText() + " Celular " +
-                celular.getText() + " email " + email.getText());
+                celular.getText() + " email " + email.getText() + " mensagem " + mensagem.getText());
 
         try {
             startActivity(Intent.createChooser(emailIntent, "Enviando Email"));
             finish();
 
         } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(ContactsActivity.this, "There is no email client installed.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ContactsActivity.this, "Não há aplicativo de e-mail instalado.", Toast.LENGTH_SHORT).show();
         }
     }
 }

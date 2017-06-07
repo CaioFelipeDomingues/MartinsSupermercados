@@ -5,6 +5,7 @@
     <string name="title_activity_maps">Mapa</string>
     <string name="google_maps_key">AIzaSyDYkRut7Jb9tf2HrnTAxvFH9S_M4AvJXPU</string>
     <string name="title_activity_menu">menuActivity</string>
+    <string name="mensagem_email">Escreva sua mensagem aqui...</string>
 
     <string name="compose_email">ENVIAR EMAIL</string>
 
