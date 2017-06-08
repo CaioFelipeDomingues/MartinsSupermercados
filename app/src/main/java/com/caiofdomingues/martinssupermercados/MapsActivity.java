@@ -3,12 +3,15 @@ package com.caiofdomingues.martinssupermercados;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import static com.caiofdomingues.martinssupermercados.R.id.map;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -20,7 +23,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(map);
         mapFragment.getMapAsync(this);
     }
 
@@ -37,9 +40,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        CameraUpdate center= CameraUpdateFactory.newLatLng(new LatLng(-25.728230, -50.790824));
+        CameraUpdate zoom=CameraUpdateFactory.zoomTo(5);
+
+        mMap.moveCamera(center);
+        mMap.animateCamera(zoom);
 
         // Add a marker in Sydney and move the camera
-        LatLng mercado = new LatLng(-25.7283607, -50.79081550000001);
+        LatLng mercado = new LatLng(-25.728230, -50.790824);
         mMap.addMarker(new MarkerOptions().position(mercado).title("Supermercado Martins"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(mercado));
     }

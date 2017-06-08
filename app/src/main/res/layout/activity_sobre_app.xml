@@ -5,8 +5,8 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
         android:layout_gravity="center"
         android:src="@mipmap/logo_original_martins" />
 
@@ -14,26 +14,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="
-Desenvolvido por:
+        android:text="Desenvolvido por:
 Caio Felipe Domingues
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 v1.1"
         android:textAlignment="center"
-        android:textSize="16dp" />
+        android:textSize="24dp" />
+
 </LinearLayout>

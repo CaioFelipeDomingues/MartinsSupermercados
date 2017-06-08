@@ -23,6 +23,10 @@
             android:icon="@drawable/ic_menu_location"
             android:title="Localização" />
         <item
+            android:id="@+id/sobreempresa"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Sobre a empresa..." />
+        <item
             android:id="@+id/about_app"
             android:icon="@drawable/ic_menu_about"
             android:title="Sobre o aplicativo..." />

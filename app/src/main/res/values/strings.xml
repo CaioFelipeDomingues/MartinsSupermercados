@@ -7,6 +7,9 @@
     <string name="title_activity_menu">menuActivity</string>
     <string name="mensagem_email">Escreva sua mensagem aqui...</string>
 
+    <string name="texto_empresa">Fundada em 2008, a empresa tem conquistado diversos clientes, proporcionando produtos com ótimos preços, temos diversos produtos para sua necessidade, o atendimento é excelente e ágil."
+        android:textSize="16dp"</string>
+
     <string name="compose_email">ENVIAR EMAIL</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
