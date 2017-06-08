@@ -13,10 +13,37 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:textStyle="italic"
         android:textAllCaps="true"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:text="@string/texto_empresa"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/slogan_empresa"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/tel_mercado"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/facebook_empresa"
         android:textAlignment="center"/>
 </LinearLayout>

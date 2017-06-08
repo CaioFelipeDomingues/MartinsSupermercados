@@ -13,11 +13,25 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Desenvolvido por:
-Caio Felipe Domingues
-v1.1"
+        android:layout_height="100dp"
+        android:text="Desenvolvido por:\nCaio Felipe Domingues"
         android:textAlignment="center"
-        android:textSize="24dp" />
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="v1.1.184"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnchangelog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:text="Ver mudanças no aplicativo"/>
 
 </LinearLayout>

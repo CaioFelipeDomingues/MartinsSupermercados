@@ -8,6 +8,9 @@
     <string name="mensagem_email">Escreva sua mensagem aqui...</string>
 
     <string name="texto_empresa">Fundada em 2008, a empresa tem conquistado diversos clientes, proporcionando produtos com ótimos preços, temos diversos produtos para sua necessidade, o atendimento é excelente e ágil."</string>
+    <string name="facebook_empresa">https://www.facebook.com/martinssupermercados97/</string>
+    <string name="tel_mercado">3463-2311</string>
+    <string name="slogan_empresa">Tudo que você precisa em um só lugar!</string>
 
     <string name="compose_email">ENVIAR EMAIL</string>
 
