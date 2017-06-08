@@ -1,20 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Em breve..."
-        android:gravity="center"
-        android:textSize="48dp"
-        android:textStyle="italic" />
+        android:stretchColumns="1">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/promotres">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/promodois"
+            android:layout_margin="@dimen/activity_vertical_margin">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/promoum">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinqum"
+            android:layout_margin="@dimen/activity_vertical_margin">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinqdois"
+            >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinqtres"
+            android:layout_margin="@dimen/activity_vertical_margin">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinquatro">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinqcinco"
+            android:layout_margin="@dimen/activity_vertical_margin">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:text="@string/promocaoum"
+            android:textAllCaps="true"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:src="@mipmap/brinqseis">
+        </ImageView>
+
+    </TableLayout>
+
+</ScrollView>

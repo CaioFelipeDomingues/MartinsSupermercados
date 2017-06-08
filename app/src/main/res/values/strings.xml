@@ -11,6 +11,13 @@
 
     <string name="compose_email">ENVIAR EMAIL</string>
 
+    <string name="promocaoum">Farinha de Trigo Anaconda 5KG - R$ 8,99</string>
+    <string name="promocaodois">Arroz Dellarroz 5KG - R$ 7,49</string>
+    <string name="promocaotres">Açúcar Mascavo 2KG - R$ 5,89</string>
+    <string name="promocaoquatro">Sabonete Dove 85g White - R$ 0,85</string>
+    <string name="promocaocinco">Macarrão Galo Espaguete 500g - R$ 2,49</string>
+    <string name="promocaoseis">Feijão Honesko 1KG - R$ 5,49</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
